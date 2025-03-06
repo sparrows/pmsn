@@ -21,9 +21,9 @@
 4. Add source code
    ```shell
    mkdir -p /path/to/firmware/variants/pmsn_v1
-   cp /path/to/pmsn/platformio.ini /path/to/firmware/platformio.ini
-   cp /path/to/pmsn/variant.h /path/to/firmware/variant.h
-   cp /path/to/pmsn/variant.cpp /path/to/firmware/variant.cpp
+   cp /path/to/pmsn/platformio.ini /path/to/firmware/variants/pmsn_v1/platformio.ini
+   cp /path/to/pmsn/variant.h /path/to/firmware/variants/pmsn_v1/variant.h
+   cp /path/to/pmsn/variant.cpp /path/to/firmware/variants/pmsn_v1/variant.cpp
    cp /path/to/pmsn/pmsn_v1.json /path/to/firmware/boards/pmsn_v1.json
    ```
 5. Build && Upload via USB
